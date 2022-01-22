@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.App-Content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.App-Footer {
+  background-color: #252525;
+  color: #ffffff;
+  padding: .75em 0;
+  font-weight: bold;
+}
+
+.Buttons {
+  width: 500px;
+}
+
+.Button {
+  margin-bottom: 15px;
+  margin-right: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: #51009b !important;
+  font-size: 16px;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  box-shadow: none;
+  border: 0;
+  text-align: center;
+}
+
+.Button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0 5px 20px rgba(81, 0, 155, 0.4);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.Contract {
+  color: rgba(55, 65, 81, 1);
+  font-size: 1.125rem;
+  margin-top: 20px;
+}
+
+.Contract-Title {
+  margin: 5px 0;
+}
+
+.Contract-Address {
+  font-weight: bold;
+}
+
+.Certik-Logo {
+  margin-top: 15px;
+}
+
+.Certik-Logo img {
+  height: 50px
+}
+
+.section {
+}
+
+.section-title {
+  font-size: 3rem;
+  color: rgba(55, 1, 87, 1);
+}
+
+.section-content {
+  color: rgba(55, 65, 81, 1);
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.Grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.Grid-Item {
+  text-align: center;
+  padding: 25px;
+  border: 3px solid #51009b;
+  border-radius: 15px;
+  color: #51009b;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.Cubix-Logo {
+  text-align: center;
+}
+
+.Cubix-Logo img {
+  height: 50px;
+}
+
+.Distribution {
+  display: flex;
+}
+
+.Distribution-Item {
+  flex: 50%;
+}
+
+.Distribution-Title {
+  font-size: 24px;
+}
